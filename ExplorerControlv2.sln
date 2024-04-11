@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExplorerControlv2", "ExplorerControlv2.vcxproj", "{EBE28CCF-C365-46AA-8D95-5F304B813BBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBE28CCF-C365-46AA-8D95-5F304B813BBA}.Debug|x64.ActiveCfg = Debug|x64
+		{EBE28CCF-C365-46AA-8D95-5F304B813BBA}.Debug|x64.Build.0 = Debug|x64
+		{EBE28CCF-C365-46AA-8D95-5F304B813BBA}.Debug|x86.ActiveCfg = Debug|Win32
+		{EBE28CCF-C365-46AA-8D95-5F304B813BBA}.Debug|x86.Build.0 = Debug|Win32
+		{EBE28CCF-C365-46AA-8D95-5F304B813BBA}.Release|x64.ActiveCfg = Release|x64
+		{EBE28CCF-C365-46AA-8D95-5F304B813BBA}.Release|x64.Build.0 = Release|x64
+		{EBE28CCF-C365-46AA-8D95-5F304B813BBA}.Release|x86.ActiveCfg = Release|Win32
+		{EBE28CCF-C365-46AA-8D95-5F304B813BBA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EE4D01F-52EB-40DE-8D49-9B48DEEC1A67}
+	EndGlobalSection
+EndGlobal
