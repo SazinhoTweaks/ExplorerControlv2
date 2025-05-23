@@ -1,0 +1,1 @@
+ExplorerControlv2 is a lightweight Windows tool that improves gaming performance by letting users temporarily disable explorer.exe and related UI services like Start Menu and Search, reducing background resource usage. With one click, it frees up system resources for smoother gameplay and restores the desktop environment just as easily.
