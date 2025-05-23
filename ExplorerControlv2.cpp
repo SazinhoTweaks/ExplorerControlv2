@@ -1,13 +1,20 @@
 #include <windows.h>
 
-// Function to terminate explorer.exe
+// Function to terminate explorer.exe and related processes
 void terminateExplorer() {
     system("taskkill /f /im explorer.exe");
+    system("taskkill /f /im ShellExperienceHost.exe");
+    system("taskkill /f /im StartMenuExperienceHost.exe");
+    system("taskkill /f /im sihost.exe");
+    system("taskkill /f /im SearchApp.exe");
+    system("taskkill /f /im SearchIndexer.exe");
+	
 }
 
 // Function to start explorer.exe
 void startExplorer() {
     ShellExecute(NULL, L"open", L"explorer.exe", NULL, NULL, SW_SHOWNORMAL); // Start explorer.exe process
+    ShellExecute(NULL, L"open", L"sihost.exe", NULL, NULL, SW_SHOWNORMAL);   // Start SiHost.exe, explorer won't open without it.
 }
 
 // Window procedure for the main window
